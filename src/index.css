@@ -1,0 +1,31 @@
+.ce-code__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ce-code__textarea {
+    min-height: 200px;
+    width: auto;
+    font-family: Menlo, Monaco, Consolas, Courier New, monospace;
+    color: #41314e;
+    line-height: 1.6em;
+    font-size: 12px;
+    background: #f8f7fa;
+    border: 1px solid #f1f1f4;
+    box-shadow: none;
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
+    resize: vertical;
+}
+
+.ce-code__language {
+    font-family: Consolas, Courier New, monospace;
+    background-color: #1e1e1e;
+    margin-top: -0.5em;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color: #d4d4d4;
+    text-align: end;
+    font-size: 14px;
+}

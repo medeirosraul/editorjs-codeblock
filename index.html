@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+    <script src="./dist/editorjs-codeblock.js"></script>
+  </head>
+  <body>
+    <div id="editorjs"></div>
+    <script>
+      const editor = new EditorJS({
+        holder: 'editorjs',
+        tools: {
+          code: Codeblock,
+        },
+        data: {
+          time: 1552744582955,
+          blocks: [
+            {
+              id: 'zbGZFPM-iI',
+              type: 'paragraph',
+              data: {
+                text: 'Hey. Meet the new Editor. On this page you can see it in action — try to edit this text. Source code of the page contains the example of connection and configuration.',
+              },
+            },
+            {
+              type: 'code',
+              data: {
+                code: 'body {\n font-size: 14px;\n line-height: 16px;\n}',
+                language: 'css'
+              },
+            },
+          ],
+          version: '2.11.10',
+        },
+      });
+    </script>
+  </body>
+</html>
