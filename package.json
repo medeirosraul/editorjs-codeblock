@@ -1,0 +1,39 @@
+{
+  "name": "@medeirosraul/editorjs-codeblock",
+  "version": "1.0.1",
+  "description": "A code block for Editojs.",
+  "main": "./dist/editorjs-codeblock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medeirosraul/editorjs-codeblock.git"
+  },
+  "keywords": [
+    "editojs",
+    "code",
+    "codeblock"
+  ],
+  "author": "Raul Medeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medeirosraul/editorjs-codeblock/issues"
+  },
+  "homepage": "https://github.com/medeirosraul/editorjs-codeblock#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@editorjs/editorjs": "^2.26.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "babel-plugin-prismjs": "^2.1.0",
+    "prismjs": "^1.29.0"
+  }
+}
