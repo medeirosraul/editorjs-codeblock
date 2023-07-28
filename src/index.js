@@ -147,6 +147,7 @@ export default class Codeblock {
   }
 
   save(block) {
+    console.log(value);
     return {
       code: block.value,
     };
